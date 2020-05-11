@@ -63,10 +63,21 @@ export default class extends React.PureComponent<any, any> {
 
                 </div>
 
+                <div className="nextButton"></div>
+                <div className="prevButton"></div>
+                <div className="buttonNav">
+                    <div className="bullet bulletActive">1</div>
+                    <div className="bullet">2</div>
+                    <div className="bullet">3</div>
+                    <div className="bullet">4</div>
+                    <div className="bullet">5</div>
+                    <div className="bullet">6</div>
+                    <div className="bullet">7</div>
+                </div>
             </div>
         </div>
         </div>
-    </div>
+        </div>
         </Layout>
         )
     }

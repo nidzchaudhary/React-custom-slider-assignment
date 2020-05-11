@@ -5,7 +5,5 @@
         shadow: true,
         buttonNav: 'bullets'
     });
-    $( ".bullet" ).each(function( index ) {
-        $(this).text(index+1);
-      });
+
 });

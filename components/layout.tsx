@@ -29,7 +29,7 @@ export default class Layout extends Component<MyLayoutProps, MyLayoutState> {
             <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
             <script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
             <script type="text/javascript" src="js/jquery.carousel-1.1.min.js"></script>
-            <script type="text/javascript" src="js/sample01.js"></script>
+            <script type="text/javascript" src="js/slider.js"></script>
             </Head>
             <Header data={""} />
               {children}
