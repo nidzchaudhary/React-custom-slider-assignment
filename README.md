@@ -12,4 +12,4 @@
 3. Enter into the directory like:- cd /var/www/repo_name
 4. Run command "npm install"
 5. Run command "npm run dev"
-6. Once bundled updated open url "http://localhost:3030"
+6. Once files bundle updated open url "http://localhost:3030"
