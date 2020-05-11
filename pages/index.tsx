@@ -77,7 +77,7 @@ export default class extends React.PureComponent<any, any> {
             </div>
         </div>
         </div>
-        </div>
+    </div>
         </Layout>
         )
     }
