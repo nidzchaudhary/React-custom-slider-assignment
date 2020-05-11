@@ -58,7 +58,8 @@ export default class extends React.PureComponent<any, any> {
                     </div>
 
                 </div>
-
+                <h1 className="section-heading">Live Classes</h1>
+            <span className="section-heading-caption">Select a number</span>
                 <div className="nextButton"></div>
                 <div className="prevButton"></div>
                 <div className="buttonNav">
