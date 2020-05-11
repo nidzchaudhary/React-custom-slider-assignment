@@ -1,0 +1,378 @@
+﻿*{
+	margin:0;
+	padding:0;
+	outline:0;
+}
+body
+{
+	background :#fff;
+	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
+}
+
+select
+{
+	width :150px;
+}
+
+/* _________________________________________________________ */
+
+/* CONTAINER */
+/* _________________________________________________________ */
+
+/* container */
+
+.column12container {max-width: 1280px; width:100%; margin :0  auto; }
+
+/* column */
+.column12 {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* content */
+
+.main_container
+{
+	margin :0 auto;
+	background :#fff;
+}
+
+.section-heading{
+	padding:50px 0 0;
+	color:#7d7d7d;
+	font-size: 40px;
+}
+.section-heading-caption{
+	color:#7d7d7d;
+	font-weight: 400;
+	font-size: 18px;
+	display:block;
+	padding:20px 0 50px;
+}
+
+/* _______________________________________________ */
+
+/* CONTAINER */
+/* _______________________________________________ */
+
+.carousel
+{
+	position :relative ;
+	margin :0 auto;
+	max-width :1280px;
+	width:100%;
+	height :auto;
+	border :none;
+	overflow : visible ;
+}
+
+
+header{
+	box-shadow: 0px 2px 9px rgba(0,0,0,0.2);
+	position: fixed;
+	z-index: 99999;
+	width:100%;
+}
+
+header nav ul{
+	display: flex;
+	justify-content:flex-end;
+}
+header nav ul li{
+	list-style: none;
+	padding:25px 0;
+}
+header nav ul li a{
+	padding:10px 30px;
+	display: block;
+	text-decoration: none;
+	color:#7d7d7d;
+	font-weight: 600;
+	position: relative;
+	font-size: 16px;;
+}
+header nav ul li a:hover{
+	color: #f67e46;
+}
+.upcoming{
+	display:block;
+	position: absolute;;
+	top:-10px;
+	font-weight: 400;
+}
+.blinker{
+	position: relative;
+	width:10px;
+	height:10px;
+	border-radius: 50%;
+	background: #f67e46;
+	display: inline-block;
+	margin:0 10px;
+}
+.blinker:after{
+	content:')';
+	position: absolute;
+	width:10px;
+	height:10px;
+	right:-12px;
+	top: -5px;
+	color: #f67e46;
+}
+.blinker:before{
+	content:'(';
+	position: absolute;
+	width:10px;
+	height:10px;
+	left: -8px;
+    color: #f67e46;
+    top: -5px;
+	color: #f67e46;
+}
+
+
+
+.login{
+	background: #ff9261; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ff9261 0%, #ff9161 10%, #e42b71 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ff9261 0%,#ff9161 10%,#e42b71 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ff9261 0%,#ff9161 10%,#e42b71 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9261', endColorstr='#e42b71',GradientType=0 ); /* IE6-9 */
+	border-radius: 30px;
+	color:#fff;
+	box-shadow: 0px 0px 6px #ff9261;
+}
+.login:hover{
+	color:#fff;
+}
+
+
+/* _______________________________________________ */
+
+/* SLIDES */
+/* _______________________________________________ */
+
+/* slide container */
+
+.slider-inner{
+	border:1px solid #000 !important;
+	border-radius: 10px;
+	height:auto !important;
+}
+.slider-inner img{
+	vertical-align: top;
+}
+
+.slider-section{
+	padding-top:100px;
+	padding-bottom:200px;
+}
+.carousel .slides
+{
+	
+	padding :0;
+	border :none;
+	list-style :none;
+	position :relative ;
+	overflow :visible ;
+	margin :0 auto;
+}
+
+.slider-caption{
+	display: block;
+	margin-top:-80px;
+	padding:15px 20px;
+	color:#7d7d7d;
+	margin:0;
+}
+.slider-caption a{
+	color:#f7aa8c;
+	display:inline-block !important;
+}
+/* slide item */
+.carousel .slides .slideItem 
+{
+	position :absolute ;
+	cursor :pointer ;
+	overflow : hidden;
+	padding :0;
+	margin :0;
+	border :none;
+}
+
+.carousel .slides .slideItem a
+{
+	display: block ;
+	text-decoration :none;
+	margin :0;
+	padding :0;
+	border :none;
+	outline :none;
+}
+
+.carousel .slides .slideItem img
+{
+	margin :0;
+	padding :0;
+	border :none;
+	width :100%;
+	height :100%;
+}
+
+/* _______________________________________________ */
+
+/* DIRECTION BUTTON */
+/* _______________________________________________ */
+
+.carousel .nextButton
+{
+	position :absolute ;
+	right :10px;
+	top :133px;
+	width :55px;
+	height :55px;
+	background : url("~/images/next_button.png") no-repeat center;
+	cursor :pointer ;
+	z-index :9999;
+}
+
+.carousel .prevButton
+{
+	position :absolute ;
+	left :10px;
+	top :133px;
+	width :55px;
+	height :55px;		
+	background : url("~/images/prev_button.png") no-repeat center;
+	cursor :pointer ;
+	z-index :9999;
+}
+
+/* _______________________________________________ */
+
+/* NAVIGATION BUTTON */
+/* _______________________________________________ */
+
+/* buttons container */
+.carousel .buttonNav
+{
+	position : relative ;
+	margin :0 auto;
+	z-index :999;
+	top:60px;
+}
+
+/* numbers */
+.carousel .buttonNav .numbers 
+{
+	position :relative ;
+	float :left ;
+	margin :5px;
+	color : #828282 ;
+	cursor :pointer ;
+	font-weight :bold ;
+	text-decoration :none;
+	font-size :1em;
+	font-family :Arial, Verdana ;
+}
+
+.carousel .buttonNav .numbers:hover
+{
+	color: #000;
+	text-decoration :underline;
+}
+
+.carousel .buttonNav .numberActive
+{
+	background : none;
+	color :#000;
+	cursor :default ;
+}
+
+/* bullets */
+.buttonNav{
+	border:1px solid #ccc;
+	padding:10px 20px;
+	box-sizing: border-box;
+	border-radius: 20px;
+	width:100% !important;
+}
+
+.carousel .buttonNav{
+	height:auto !important;
+}
+.carousel .buttonNav .bullet
+{
+	position :relative ;
+	border-bottom:5px solid transparent;
+	margin :5px;
+	display: inline-block;
+	cursor :pointer ;
+	font-size: 20px;
+	padding:0 20px;
+}
+
+
+
+.carousel .buttonNav .bulletActive
+{
+	border-bottom:5px solid #7d7d7d;
+	cursor :default ;
+}
+
+/* ____________________________________________________________ */
+
+/* VIDEO */
+/* ____________________________________________________________ */
+
+.carousel .slides .videoOverlay
+{
+	background :url("~/images/video.png") no-repeat center; /* play button */
+}
+
+.carousel .slides .spinner
+{
+	background : #000 url(~/images/loading.gif) no-repeat center; /* video preloader */
+}
+
+/* _____________________________ *
+
+/* SHADOW */
+/* _____________________________ */
+
+.carousel .shadow
+{
+	width :100%;
+	height :82px;
+}
+
+.carousel .shadow .shadowLeft
+{
+	width :100px;
+	height :82px;
+	                 
+}
+
+.carousel .shadow .shadowMiddle
+{
+	height :82px;
+                    
+}
+
+.carousel .shadow .shadowRight
+{
+	width :100px;
+	height :82px;
+                  
+}
+
